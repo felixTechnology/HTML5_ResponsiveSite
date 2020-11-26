@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header-1" id="header"><!--1 the header-1 is -->
+        <!--.container-fluid--><!--used to make it responsive whatever is placed in it becomes responsive by nature of bootstrap-->
+        <div class="container-fluid"><!--2-->
+            <!--.row--><!--Pre-defined class in bootstrap-->
+            <div class="row"><!--3-->
+                <!--.col-lg-2--><!--inside row we put columns-->
+                <div class="col-lg-2 col-sm-3 col-md-3"><!--4-->
+                      <div class="logo"><!--5-->
+                          <a href="#"><img src="images/logo.png" alt=""></a><!--6-->
+                      </div>
+                </div>
+
+                 <div class="col-lg-8 col-sm-7 col-md-7 top"><!--7-->
+                     <!--.nav--><!--anything in the nav class is bootstrap custom class--><!--mainmeny will be custom class by me-->
+                      <nav class="navbar navbar-expand-lg mainmenu  text-center"><!--8text-center will center all items in navbar-->
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cool"><!--9. all attribute in button are bootstrap.Collapse will collape the navigation bar when you click on hamburger menu or toggler menu.Data-target will target all the menu ids-->
+                              <span class="navbar-toggler-icon"><!--10-->
+                                   <i class="fa fa-bars"></i><!--11-->
+                              </span>
+                          </button>
+
+                          <div class="collapse navbar-collapse" id="cool"><!--12-->
+                              <ul class="navbar-nav"><!--13-->
+                                    <li class="nav-item"><!--14-->
+                                        <a href="" class="nav-link">HOME</a>
+                                    </li>
+
+                                  <li class="nav-item"><!--14-->
+                                      <a href="" class="nav-link">ABOUT</a>
+                                  </li>
+
+                                  <li class="nav-item"><!--14-->
+                                      <a href="" class="nav-link">SERVICES</a>
+                                  </li>
+
+                                  <li class="nav-item"><!--14-->
+                                      <a href="" class="nav-link">PORTFOLIO</a>
+                                  </li>
+
+                                  <li class="nav-item"><!--14-->
+                                      <a href="" class="nav-link">CONTACT</a>
+                                  </li>
+
+                                  <li class="nav-item"><!--14-->
+                                      <a href="" class="nav-link">LOCATIONS</a>
+                                  </li>
+
+                                  <li class="nav-item"><!--14-->
+                                      <a href="" class="nav-link">FAQ</a>
+                                  </li>
+                              </ul>
+                          </div><!--12-->
+                      </nav>
+                 </div>
+
+                <div class="col-lg-2 col-sm-2 col-md-2"><!--15-->
+                    <div class="navigator text-right"><!--16. text-right and navigator exist in bootstrap lib-->
+                        <a href="" class="search"><!--17. search class is custom and will be use to design in style.css to change position-->
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

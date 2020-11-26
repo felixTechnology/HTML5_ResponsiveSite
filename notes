@@ -1,0 +1,14 @@
+1. Go to font family and choose font type by searching (example: oswald)
+-click on it
+-choose your properties (example: regular 400, etc)
+-copy the link to your selected property
+-paste in the head of your html
+2. Go and copy the google font awesome link (https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
+-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+3. Go and copy your bootstrap cdn (https://www.bootstrapcdn.com/)
+- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+4. Go and get the JS AND JQUERY files for the bootstrap (https://www.bootstrapcdn.com/)
+- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+-For JQUERY CDN:
+1. GO TO -> https://code.jquery.com/ and click on (Uncompressed on JQUERY 3.X) and the src link)
+- <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
